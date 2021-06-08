@@ -7,7 +7,7 @@ void printIndex(string s, string pat)
     while(found!=string::npos)//npos actually means until the end of the string.
     {
         cout<<"Pattern found at "<<found<<"\n";
-        found = s.find(pat,found+1);
+        found = s.find(pat,found+1);//start pattern searching again from index found+1.
     }
 }
 
