@@ -1,0 +1,4 @@
+Here, we'll learn the delete keyword that's used to clear the dynamically allocated memory in CPP.
+
+Code to delete the array
+delete[] arr;
